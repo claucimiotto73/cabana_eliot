@@ -1,0 +1,17 @@
+.bg_animate{
+    
+    background: linear-gradient(to right, #e7eee9, #04b12f) ;
+    position: relative;
+    overflow: hidden;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: rgb(4, 4, 61);
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(4, 4, 61);
+    
+}

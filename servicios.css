@@ -1,0 +1,22 @@
+.bg_animate{
+    
+    background: linear-gradient(to right, #dbeef0, #04b1b1) ;
+    position: relative;
+    overflow: hidden;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: rgb(4, 4, 61);
+}
+div {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(77, 77, 128);
+    
+}
+p {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

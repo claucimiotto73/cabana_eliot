@@ -1,0 +1,177 @@
+
+    body{
+        margin: 0;
+        background-color: #70a0f3;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #3c39e4, #d2ddf0) ;
+    position: relative;
+    overflow: hidden;
+}
+
+
+ .header_nav{
+    width: 120%;
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    
+}
+.center {
+    animation: movimiento  2.5s linear infinite ;
+     
+}
+.center {
+ margin-left: 600px;
+ display: block;
+ justify-content: center;
+ padding: 100px;
+ align-items: center;
+
+  
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+
+.header_nav h1 {
+    color: rgb(30, 34, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+ a {
+     color: rgb(243, 248, 242);
+     text-decoration: none;
+     font-size: 25px;
+     margin-right: 60px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+.banner_title h2{
+color: rgb(2, 21, 75);
+font-size: 60px;
+font-weight: 500;
+margin-bottom: 200px;
+display: flex;
+margin-top: 220px;
+justify-content: inherit;
+}
+.banner_title .llamanos{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1a2b49;
+    padding: 20px;
+}
+
+
+  
+    .burbujas div {
+        background: black;
+        position: absolute;
+        bottom: 0;
+        border-radius: 100%;
+        animation: animarburbujas 4s linear infinite;
+     }
+     .burbujas div:nth-child(1){
+        width: 32px;
+        height: 35px;
+        left: 10px;
+        animation-duration: 4s;
+       
+    }
+    
+    .burbujas div:nth-child(2){
+        width: 42px;
+        height: 45px;
+        left: 25%;
+        animation-duration: 9s;
+        
+    }
+    .burbujas div:nth-child(3){
+        width: 32px;
+        height: 35px;
+        left: 15%;
+        animation-duration: 8s;
+        
+    }
+
+    .burbujas div:nth-child(4){
+        width: 42px;
+        height: 45px;
+        left: 50%;
+        animation-duration: 9s;
+        
+    }
+    .burbujas div:nth-child(5){
+        width: 40px;
+        height: 55px;
+        left: 60%;
+        animation-duration: 10s;    
+    }
+    .burbujas div:nth-child(6){
+        width: 40px;
+        height: 45px;
+        left: 15%;
+        animation-duration: 10s;
+          }
+          .burbujas div:nth-child(7){
+            width: 40px;
+            height: 45px;
+            left: 75%;
+            animation-duration: 10s;
+              }
+              .burbujas div:nth-child(9){
+                width: 40px;
+                height: 45px;
+                left: 19%;
+                animation-duration: 10s;
+                  }
+    @keyframes animarburbujas{
+       0%{
+            width: 0;
+            height: 0;
+        } 
+        3%{
+            width: 30px;
+            height: 27px;
+        } 
+        50%{
+            opacity: 0.5;
+            margin-left: 20px;
+        }
+        100%{
+            transform: rotate(90deg);
+            bottom: 100vh ;
+            background: white;
+         }
+    }
+    
+    
+  
+ 
+    
+    
